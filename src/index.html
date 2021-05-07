@@ -12,11 +12,79 @@
       href="./img/favicon-32x32.png"
     />
 
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./sass/main.scss" />
 
     <title>SerenityFire | FAQ Accordion Card</title>
   </head>
   <body>
-    <h1>Hello World</h1>
+    <div class="container">
+      <div class="img">
+        <img src="./img/illustration-woman-online-desktop.svg" alt="" />
+      </div>
+
+      <div class="faq">
+        <h1>FAQ</h1>
+        <section class="component">
+          <header onclick="this.classList.toggle('show-hidden')" role="button">
+            How many team members can I invite?
+          </header>
+          <main class="content hide">
+            <p>
+              You can invite up to 2 additional users on the Free plan. There is
+              no limit on team members for the Premium plan.
+            </p>
+          </main>
+        </section>
+        <section class="component">
+          <header onclick="this.classList.toggle('show-hidden')" role="button">
+            What is the maximum file upload size?
+          </header>
+          <main class="content hide">
+            <p>
+              No more than 2GB. All files in your account must fit your allotted
+              storage space.
+            </p>
+          </main>
+        </section>
+        <section class="component">
+          <header onclick="this.classList.toggle('show-hidden')" role="button">
+            How do I reset my password?
+          </header>
+          <main class="content hide">
+            <p>
+              Click “Forgot password” from the login page or “Change password”
+              from your profile page. A reset link will be emailed to you.
+            </p>
+          </main>
+        </section>
+        <section class="component">
+          <header onclick="this.classList.toggle('show-hidden')" role="button">
+            Can I cancel my subscription?
+          </header>
+          <main class="content hide">
+            <p>
+              Yes! Send us a message and we’ll process your request no questions
+              asked.
+            </p>
+          </main>
+        </section>
+        <section class="component">
+          <header onclick="this.classList.toggle('show-hidden')" role="button">
+            Do you provide additional support?
+          </header>
+          <main class="content hide">
+            <p>
+              Chat and email support is available 24/7. Phone lines are open
+              during normal business hours.
+            </p>
+          </main>
+        </section>
+      </div>
+    </div>
   </body>
 </html>
