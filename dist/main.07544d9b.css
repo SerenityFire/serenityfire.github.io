@@ -71,13 +71,13 @@ body {
   cursor: pointer;
 }
 .component > header:after {
-  content: url(/icon-arrow-down.3e988b19.svg);
+  content: url(icon-arrow-down.3e988b19.svg);
   transform: scale(2);
   position: absolute;
   right: 2rem;
 }
 .component > header.show-hidden:after {
-  content: url(/icon-arrow-down.3e988b19.svg);
+  content: url(icon-arrow-down.3e988b19.svg);
   transform: scale(2) rotate(180deg) translateY(-3px);
 }
 .component > header.show-hidden + .content {
@@ -100,4 +100,4 @@ body {
   max-width: 80%;
 }
 
-/*# sourceMappingURL=/main.07544d9b.css.map */
+/*# sourceMappingURL=main.07544d9b.css.map */
